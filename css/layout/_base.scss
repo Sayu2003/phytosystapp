@@ -1,0 +1,19 @@
+html,body {
+	//font-family: $baseFont;
+	color: $darkGrey;
+	font-size: 100%;
+	background: $white;
+
+	@media #{$tabletOnly} {
+		//font-size: 97%;
+	}
+
+	@media #{$mobileOnly} {
+		//font-size: 93%;
+	}
+
+}
+
+.hidden {
+	@include hide;
+}
