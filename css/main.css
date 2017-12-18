@@ -389,11 +389,6 @@ template {
 [hidden] {
   display: none; }
 
-html, body {
-  color: #59554e;
-  font-size: 100%;
-  background: #fff; }
-
 .hidden {
   display: none; }
 

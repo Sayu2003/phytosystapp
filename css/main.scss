@@ -1,5 +1,8 @@
 //Main scss file that imports all partials into one main file.
 
+//vendors
+//@import 'vendors/';
+
 //base
 @import 'base/normalize';
 @import 'base/typography';
@@ -9,9 +12,6 @@
 @import 'utility/variables';
 @import 'utility/functions';
 @import 'utility/mixins';
-
-//vendors
-//@import 'vendors/';
 
 //layout
 @import 'layout/base';
